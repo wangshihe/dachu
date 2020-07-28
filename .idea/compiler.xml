@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="admin" />
         <module name="dachu" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="admin" target="1.8" />
       <module name="dachu" target="1.8" />
     </bytecodeTargetLevel>
   </component>
